@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 04:02:23 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1QN0YxMzhDOzIwMjEtMTAtMTI7IjEwOjUyOjU0ICI7MzA0Mg=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1QN0YxMzhDOzIwMjEtMTAtMTI7IjA0OjAyOjIzICI7NTszMTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, somme, divition, multiplication, soustraction, max" type="Integer" array="False" size=""/>
+            <output expression="&quot;donne un numbre &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;donne le 2 nombre&quot;" newline="True"/>
+            <input variable="y"/>
+            <assign variable="somme" expression="x+y"/>
+            <assign variable="divition" expression="x/y"/>
+            <assign variable="Soustraction" expression="x-y"/>
+            <assign variable="multiplication" expression="x*y"/>
+            <output expression="&quot;DIV:&quot;&amp;divition" newline="True"/>
+            <output expression="&quot;SOMME:&quot;&amp;somme" newline="True"/>
+            <output expression="&quot;MU:&quot;&amp;multiplication" newline="True"/>
+            <output expression="&quot;SOUS:&quot;&amp;soustraction" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
